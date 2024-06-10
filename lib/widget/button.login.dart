@@ -1,5 +1,6 @@
+import 'package:project_store/screens/profile_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:project_store/screen_page/profile_screen.dart';
+// import 'package:project_store/screen_page/profile_screen.dart';
 
 class ButtonGlobal extends StatelessWidget {
   const ButtonGlobal({Key? key}) : super(key: key);

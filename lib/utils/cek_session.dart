@@ -4,7 +4,8 @@ class SessionManager {
   int? value;
   String? idUser, username, email, address; // Add address field
 
-  Future<void> saveSession(int val, String id, String username, String email, String address) async {
+  Future<void> saveSession(
+      int val, String id, String username, String email, String address) async {
     SharedPreferences pref = await SharedPreferences.getInstance();
     pref.setInt("value", val);
     pref.setString("id", id);

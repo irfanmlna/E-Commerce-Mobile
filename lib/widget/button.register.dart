@@ -1,5 +1,6 @@
+import 'package:project_store/screens/login_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:project_store/screen_page/login_screen.dart';
+// import 'package:project_store/screen_page/login_screen.dart';
 
 class ButtonRegist extends StatelessWidget {
   const ButtonRegist({Key? key}) : super(key: key);
